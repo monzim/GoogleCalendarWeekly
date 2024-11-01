@@ -9,8 +9,10 @@ declare module "@remix-run/node" {
 }
 
 export default defineConfig({
+  base: "/GoogleCalendarWeekly/",
   plugins: [
     remix({
+      basename: "/GoogleCalendarWeekly/",
       ssr: false,
     }),
     tsconfigPaths(),

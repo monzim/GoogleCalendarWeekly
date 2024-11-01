@@ -18,6 +18,8 @@ bun insttall
 bun dev
 ```
 
+opens the browser at `http://localhost:5173/GoogleCalendarWeekly`
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
