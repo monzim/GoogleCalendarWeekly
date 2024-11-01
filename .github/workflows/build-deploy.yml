@@ -23,11 +23,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: oven-sh/setup-bun@v2
+        uses: actions/checkout@v4
       - name: Install and Build 🔧
         run: |
-          bun install --production
-          bun run build
+          npm ci
+          npm run build
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
