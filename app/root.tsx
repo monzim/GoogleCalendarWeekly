@@ -1,3 +1,4 @@
+import type { LinksFunction, MetaFunction } from "@remix-run/node";
 import {
   Links,
   Meta,
@@ -5,7 +6,6 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
-import type { LinksFunction } from "@remix-run/node";
 
 import "./tailwind.css";
 
@@ -21,6 +21,17 @@ export const links: LinksFunction = () => [
     href: "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
   },
 ];
+
+export const meta: MetaFunction = () => {
+  return [
+    { title: "Calender Weekly View | Monzim" },
+    {
+      name: "description",
+      content:
+        "An open-source weekly calendar view inspired by Google Calendar. Developed by Azraf Al Monzim",
+    },
+  ];
+};
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (

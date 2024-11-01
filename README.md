@@ -1,40 +1,36 @@
-# Welcome to Remix!
+# GoogleCalendarWeekly
 
-- 📖 [Remix docs](https://remix.run/docs)
+GoogleCalendarWeekly is an open-source React component that provides a weekly calendar view inspired by Google Calendar. It offers a sleek and functional interface for displaying and managing weekly schedules in your React applications.
+
+## Features
+
+- Clean and intuitive weekly calendar view
+- Customizable event display
+- Responsive design (Not yet)
+- Easy integration with React projects
 
 ## Development
 
 Run the dev server:
 
 ```shellscript
-npm run dev
+bun insttall
+bun dev
 ```
 
-## Deployment
+## Contributing
 
-First, build your app for production:
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-```sh
-npm run build
-```
+## License
 
-Then run the app in production mode:
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-```sh
-npm start
-```
+## Author
 
-Now you'll need to pick a host to deploy it to.
+Developed by [Monzim](https://monzim.com).
 
-### DIY
+## Links
 
-If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-- `build/server`
-- `build/client`
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
+- [GitHub Repository](https://github.com/monzim/GoogleCalendarWeekly)
+- [Author's Website](https://monzim.com)
